@@ -79,6 +79,6 @@ chown -R dynamodb.dynamodb ${DEPLOY_DIR}
 
 echo "Setting up service..."
 # Grab files from github
-wget --progress=dot -qO /etc/systemd/system/dynamodb.service https://
+wget --progress=dot -qO /etc/systemd/system/dynamodb.service https://raw.githubusercontent.com/knowrick/DynamoDB/master/dynamodb.service
 
 systemctl daemon-reload

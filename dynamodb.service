@@ -13,5 +13,3 @@ ExecStart=/usr/bin/java -Djava.library.path=${deploydir}/DynamoDBLocal_lib -jar 
 
 [Install]
 WantedBy=multi-user.target
-                           
-
